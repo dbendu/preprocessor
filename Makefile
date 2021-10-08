@@ -1,0 +1,2 @@
+all:
+	gcc -Wno-unknown-pragmas -Wall -Werror -Wextra main.c preprocessor/preprocessor.c preprocessor/array/array.c preprocessor/str/str.c preprocessor/variable/variable.c preprocessor/variables_manager/variables_manager.c preprocessor/preprocessor_helpers.c
